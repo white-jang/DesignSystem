@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx build test",
+    "startTime": "2024-10-17T02:25:25.689Z",
+    "endTime": "2024-10-17T02:25:43.518Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@designsystem/themes:build",
+      "target": "build",
+      "projectName": "@designsystem/themes",
+      "hash": "17420375311182139003",
+      "startTime": "2024-10-17T02:25:25.705Z",
+      "endTime": "2024-10-17T02:25:31.814Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "test:build",
+      "target": "build",
+      "projectName": "test",
+      "hash": "8129918117530718851",
+      "startTime": "2024-10-17T02:25:31.872Z",
+      "endTime": "2024-10-17T02:25:43.516Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
