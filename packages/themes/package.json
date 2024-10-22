@@ -19,7 +19,7 @@
     "clean": "rmdir /s dist"
   },
   "devDependencies": {
-    "esbuild": "^0.16.17",
+    "@designsystem/esbuild-config": "workspace:^",
     "typescript": "^5.2.2"
   }
 }
