@@ -16,7 +16,7 @@
     "build:js": "node build.js",
     "build:type": "tsc --emitDeclarationOnly",
     "build:css": "node ./scripts/build-css-module.js",
-    "clean": "rmdir /s dist"
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
     "@designsystem/esbuild-config": "workspace:^",
